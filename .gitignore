@@ -1,0 +1,45 @@
+# ─── Environment ───────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ─── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ─── Virtual Environments ──────────────────────────────
+venv/
+.venv/
+env/
+.env*/
+
+# ─── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Runtime / Generated Data ─────────────────────────
+chroma_db/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# ─── Streamlit ─────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Project-specific ──────────────────────────────────
+*.log

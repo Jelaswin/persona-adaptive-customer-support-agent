@@ -1,0 +1,82 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792]
+   /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+
+4 0 obj
+<< /Length 452 >>
+stream
+BT
+/F1 18 Tf
+50 720 Td
+(AdSparkX - Refund Policy) Tj
+/F1 12 Tf
+50 680 Td
+(Eligibility for Refunds:) Tj
+/F1 11 Tf
+50 650 Td
+(New subscriptions are eligible for a full refund within 30 days of purchase.) Tj
+50 630 Td
+(Annual plan refunds are prorated after the first 30 days.) Tj
+50 610 Td
+(Add-ons and one-time purchases are non-refundable.) Tj
+50 590 Td
+(Renewals are non-refundable.) Tj
+/F1 12 Tf
+50 560 Td
+(How to Request a Refund:) Tj
+/F1 11 Tf
+50 530 Td
+(1. Go to Dashboard > Settings > Billing > Request Refund.) Tj
+50 510 Td
+(2. Provide a reason for cancellation.) Tj
+50 490 Td
+(3. Refunds are processed within 5-10 business days.) Tj
+50 470 Td
+(4. The refund is credited to the original payment method.) Tj
+/F1 12 Tf
+50 440 Td
+(Contact Information:) Tj
+/F1 11 Tf
+50 410 Td
+(Email: billing@adsparkx.ai) Tj
+50 390 Td
+(Phone: +1 (555) 987-6543) Tj
+50 370 Td
+(Response time: within 24 hours on business days.) Tj
+/F1 10 Tf
+50 320 Td
+(This document is for informational purposes. Terms are subject to change.) Tj
+50 300 Td
+(Last updated: January 2025) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000000770 00000 n 
+
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+795
+%%EOF

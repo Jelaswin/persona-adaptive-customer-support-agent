@@ -1,0 +1,48 @@
+API Authentication Guide
+========================
+
+Overview
+--------
+AdSparkX uses OAuth 2.0 for API authentication. All API requests must include a valid access token in the Authorization header.
+
+Authentication Flow
+-------------------
+1. Obtain credentials from the AdSparkX Dashboard > API Keys.
+   - Client ID
+   - Client Secret
+2. Request an access token:
+   POST https://api.adsparkx.ai/oauth/token
+   Content-Type: application/json
+   Body: {
+     "client_id": "YOUR_CLIENT_ID",
+     "client_secret": "YOUR_CLIENT_SECRET",
+     "grant_type": "client_credentials"
+   }
+3. The response returns:
+   {
+     "access_token": "eyJhbGciOi...",
+     "token_type": "Bearer",
+     "expires_in": 3600
+   }
+4. Use the token in API requests:
+   Authorization: Bearer eyJhbGciOi...
+
+Token Management
+----------------
+- Access tokens expire after 1 hour (3600 seconds).
+- Refresh the token by repeating the authentication request.
+- Store tokens securely. Never expose them in client-side code.
+- Rotate client secrets every 90 days.
+
+Error Codes
+-----------
+- 401 Unauthorized: Token missing, expired, or invalid.
+- 403 Forbidden: Token valid but lacks required permissions.
+- 429 Too Many Requests: Rate limit exceeded.
+
+Best Practices
+--------------
+- Use environment variables for credentials.
+- Implement automatic token refresh.
+- Use HTTPS for all API calls.
+- Scope tokens to minimum required permissions.
